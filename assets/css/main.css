@@ -1416,10 +1416,10 @@ body.is-preload #bg:before {
 	line-height: 9rem;
 	border: solid 1px #ffffff;
 	border-radius: 100%;
-	background-image: url("../../images/PHIL_2.jpg");
+	background-image: url("/images/PHIL_2.jpg");
 
-	@supports (background-image: url("../../images/PHIL_2.webp")) {
-		background-image: url("../../images/PHIL_2.webp");
+	@supports (background-image: url("/images/PHIL_2.webp")) {
+		background-image: url("/images/PHIL_2.webp");
 	}
 
 	/* background-position: 30%; */
