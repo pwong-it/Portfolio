@@ -1417,6 +1417,11 @@ body.is-preload #bg:before {
 	border: solid 1px #ffffff;
 	border-radius: 100%;
 	background-image: url("../../images/PHIL_2.jpg");
+
+	@supports (background-image: url("../../images/PHIL_2.webp")) {
+		background-image: url("../../images/PHIL_2.webp");
+	}
+
 	/* background-position: 30%; */
 	background-size: cover;
 	background-repeat: no-repeat;
